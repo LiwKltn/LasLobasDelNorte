@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+}
+
+.logowolf{
+    width: 15vh;
+    margin-left: 5vh;
+    background-color: white;
+    border-radius: 50vh;
+    margin-top: 1vh;
+
+}
+.navbar{
+    background: #442B2B;
+    
+}
