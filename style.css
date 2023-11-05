@@ -1,16 +1,58 @@
-*{
-    margin: 0%;
+* {
+    margin: 0;
 }
 
-.logowolf{
+.logowolf {
     width: 15vh;
     margin-left: 5vh;
     background-color: white;
     border-radius: 50vh;
-    margin-top: 1vh;
-
 }
-.navbar{
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #442B2B;
+    padding: 1.5vh;
+}
+
+.navbar-text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Aref Ruqaa', serif;
     
+}
+.navbar-text a:hover {
+    color: rgb(65, 65, 161)
+}
+.navbar-text a {
+    margin-right: 50px;
+    color: white;
+    
+}
+
+.navbar-text-h3lobas,
+.navbar-text-h3armas,
+.navbar-text-h3conquistas:hover {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-text a {
+    text-decoration: none;
+   
+}
+
+.navbar-text a:visited {
+    text-decoration: white;
+}
+.logowolf:hover {
+    transform: scale(0.9); 
+    transition: transform 0.8s;
+}
+
+.logowolf {
+    transition: transform 0.8s;
 }
