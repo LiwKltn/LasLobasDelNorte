@@ -61,3 +61,44 @@
 .logowolf {
     transition: transform 0.8s;
 }
+
+.icon-wolf-1 {
+    height: 20vh;
+
+}
+.icon-wolf-2 {
+    height: 20vh;
+}
+.icon-wolf-3 {
+    height: 20vh;
+}
+.icon-wolf-4 {
+    height: 20vh;
+}
+.icon-wolf-5 {
+    height: 20vh;
+    
+}
+
+.paragraph-main {
+   margin-left: 40vh;
+   flex-direction: row;
+   text-align: rightfont-family 'Aref Ruqaa', serif;   
+}
+
+h1{
+    font-family: 'Aref Ruqaa', serif;
+    margin-left: 40vh;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    color: #3E0202;
+    background-color: #fad0d0;
+    width: 50vh;
+}
+
+.icon-wolfs {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    
+}
