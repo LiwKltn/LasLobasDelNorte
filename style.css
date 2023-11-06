@@ -27,8 +27,7 @@
 }
 
 .navbar-text a:hover {
-    color: rgb(65, 65, 161)
-
+    color: rgb(189, 40, 40)
 }
 
 .navbar-text a {
@@ -79,11 +78,17 @@
     height: 20vh;
     
 }
+.icon-wolfs {
+    margin-bottom: 3vh;
+}
 
 .paragraph-main {
    margin-left: 40vh;
    flex-direction: row;
-   text-align: rightfont-family 'Aref Ruqaa', serif;   
+   text-align: justify; 
+   font-size: medium;
+   font-family: 'Aref Ruqaa', serif;
+   margin-right: 8vh;
 }
 
 h1{
@@ -100,5 +105,55 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: 8vh;
+    
+    
+}
+footer {
+    background: #442B2B;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-caja {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+}
+
+.left-content {
+    display: flex;
+    align-items: center; 
+    color: white;
+}
+
+.copyright{
+    
+    width: 10vh;
+    height: 7vh;
+    margin-left: 3vh;
+    margin-top: 5.5vh;
+}
+
+.right-content {
+    display: flex;
+    align-items: center; 
+    margin-left: 30px;
+}
+    
+.redes-image {
+    width: 70px;
+    height: 70px;
+
+}
+
+.footer-text {
+    font-size: 3vh; 
+    font-family: 'Aref Ruqaa', serif;
+}
+.foto-logo-redes{
+    width: 15vh;
+    margin-right: 5vh;
     
 }
