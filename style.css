@@ -1,60 +1,112 @@
-body {
+* {
     margin: 0;
-    padding: 0;
-    font-family: 'Aref Ruqaa Ink', sans-serif;/*se lo puedo poner en html solo para el texto si eso modifica lo*/
+}
+
+.logowolf {
+    display: flex;
+    width: 15vh;
+    margin-left: 5vh;
+    background-color: white;
+    border-radius: 50vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #442B2B;
+    padding: 1.5vh;
+}
+
+.navbar-text {
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Aref Ruqaa', serif;
+    
+}
+.navbar-text a:hover {
+    color: rgb(65, 65, 161)
+
+}
+
+.navbar-text a {
+    margin-right: 50px;
+    color: white;
+    
+}
+
+.navbar-text-h3lobas,
+.navbar-text-h3armas,
+.navbar-text-h3conquistas:hover {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text a {
+    text-decoration: none;
+   
+}
+.navbar-text a:visited {
+    text-decoration: white;
+}
+
+
+.logowolf:hover {
+    transform: scale(0.9); 
+    transition: transform 0.8s;
+}
+
+.logowolf {
+    transition: transform 0.8s;
 }
 
 footer {
     background: #442B2B;
-    /*fondo del footer*/
     width: 100%;
-    /*ocupe todo el ancho disponible de la pantalla, responsive*/
     position: fixed;
-    /*fija el footer en su posición aunque se mueva la pantalla*/
     bottom: 0;
-    /*coloca el footer en la parte inferior de la ventana del navegador*/
     display: flex;
-    /*flexbox*/
     flex-direction: column;
-    /*se alinee en la parte inferior automáticamente*/
+    
 }
-
 .footer-caja {
-    /*elementos dentro de la flexbox*/
-    width: 100%;
-    display: flex;/*por defecto los elementos se alienan en la misma linea horizontal*/
+    display: flex;
     justify-content: space-between;
 }
 
 .left-content {
-    /*contenido en la parte izquierda de la caja*/
     display: flex;
-    align-items: center; /*los elementos se alinean verticalmente en el centro del contenedor left*/
+    align-items: center; 
     color: white;
 }
 
 .copyright{
-    /*posicion del copyright*/
-    width: 24px;
-    height: 60px;
+    
+    width: 10vh;
+    height: 7vh;
+    margin-left: 3vh;
+    margin-top: 5.5vh;
 }
 
 .right-content {
-    /*contenido a la derecha. las redes sociales*/
     display: flex;
-    align-items: center; /*así no ocupa toda la altura de la flexbox derecha*/
+    align-items: center; 
     margin-left: 30px;
-    /*AYUDA, si modifico el margin left:0 de arriba se me mueve toda la flexbox, pero si no lo modifico no se me mieve la imagen de redes*/
 }
-
+    
 .redes-image {
-    /*el simbolo de las redes*/
     width: 70px;
     height: 70px;
 
 }
 
 .footer-text {
-    font-size: 30px; /*tamaño aproximado*/
-    margin-left: 15px;
+    font-size: 3vh; 
+    font-family: 'Aref Ruqaa', serif;
+}
+.foto-logo-redes{
+    width: 15vh;
+    margin-right: 5vh;
+    
 }
